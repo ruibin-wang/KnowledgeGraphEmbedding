@@ -1,0 +1,22 @@
+2022-08-19 16:33:19 INFO     Model: RotatE
+2022-08-19 16:33:19 INFO     Data Path: ..\data\FB15k-237
+2022-08-19 16:33:19 INFO     #entity: 14541
+2022-08-19 16:33:19 INFO     #relation: 237
+2022-08-19 16:33:19 INFO     #train: 272115
+2022-08-19 16:33:19 INFO     #valid: 17535
+2022-08-19 16:33:19 INFO     #test: 20466
+2022-08-19 16:33:19 INFO     Model Parameter Configuration:
+2022-08-19 16:33:19 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2022-08-19 16:33:19 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2022-08-19 16:33:19 INFO     Parameter entity_embedding: torch.Size([14541, 2000]), require_grad = True
+2022-08-19 16:33:19 INFO     Parameter relation_embedding: torch.Size([237, 1000]), require_grad = True
+2022-08-19 16:39:08 INFO     Ramdomly Initializing RotatE Model...
+2022-08-19 16:39:14 INFO     Start Training...
+2022-08-19 16:39:14 INFO     init_step = 0
+2022-08-19 16:39:15 INFO     batch_size = 1024
+2022-08-19 16:39:15 INFO     negative_adversarial_sampling = 1
+2022-08-19 16:39:15 INFO     hidden_dim = 1000
+2022-08-19 16:39:16 INFO     gamma = 24.000000
+2022-08-19 16:39:34 INFO     negative_adversarial_sampling = True
+2022-08-19 16:39:36 INFO     adversarial_temperature = 1.000000
+2022-08-19 16:39:41 INFO     learning_rate = 0

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="eb45cbe9-bd62-4fbf-bef3-5f3dcef17828" name="ubuntu_two_gpu">
+        <fileTransfer rootFolder="/media/pc/DATA/Ruibin/KnowledgeGraphEmbedding_RotatE" accessType="SFTP" host="10.121.9.207" port="22" sshConfigId="5ae3f3d1-5c33-430b-a84a-665a52413734" sshConfig="pc@10.121.9.207:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
